@@ -1,0 +1,30 @@
+from pygame.math import Vector2 as vec
+
+# Screen Settings
+WIDTH, HEIGHT = 610, 670
+TOP_BOTTOM_BUFFER = 50
+MAZE_WIDTH, MAZE_HEIGHT = WIDTH- TOP_BOTTOM_BUFFER, HEIGHT - TOP_BOTTOM_BUFFER
+FPS = 60
+ROWS = 30
+COLS = 28
+
+# Color Settings
+BLACK = (0, 0, 0)
+RED = (208, 22, 22)
+GREY = (107, 107, 107)
+WHITE = (255,255,255)
+PLAYER_COLOUR = (190,194,15)
+WALL_COLOR = (112,55,163)
+COIN_COLOR = (167,179,34)
+ENEMY1_COLOR = (43,78,203)
+ENEMY2_COLOR = (197,200,27)
+ENEMY3_COLOR = (189,29,29)
+ENEMY4_COLOR = (215,159,33)
+
+# Font Settings
+START_TEXT_SIZE = 16
+START_FONT = 'arial black'
+
+# Player Settings
+
+# Mob Settings
